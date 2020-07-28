@@ -17,7 +17,7 @@ document.getElementById("startreset").onclick=function(){
        score=0;
        document.getElementById("scorevalue").innerHTML=score;
        show("timeremaining");
-       timeremaining=10;
+       timeremaining=150;
        document.getElementById("timeremainingvalue").innerHTML=timeremaining;
        hide("gameover");
 
