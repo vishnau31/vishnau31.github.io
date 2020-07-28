@@ -13,12 +13,12 @@ function valueSet()
 	document.getElementById("startreset").innerHTML="Start Game";
 }
 function next(){
-      if(gameCounter<=10)
+      if(gameCounter<=150)
       {
       var no1= Math.round(Math.random()*10);
 	  var no2= Math.round(Math.random()*10);
 	  var ques=no1+"x"+no2;
-	  mul=no1*no2;
+	  mul=no1+no2;
 	 
 	  var randIndex = Math.round(Math.random()*3);
 	  option[randIndex]=mul;
@@ -36,7 +36,7 @@ function next(){
 	    document.getElementById(boxno).innerHTML=option[i];
 	  }
       document.getElementById("question").innerHTML=ques;
-       x=30;
+       x=10;
 	  clearInterval(mc);
 	  var m=document.getElementById("trv");
 	  mc=setInterval(
