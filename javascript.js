@@ -17,7 +17,7 @@ function next(){
       {
       var no1= Math.round(Math.random()*10);
 	  var no2= Math.round(Math.random()*10);
-	  var ques=no1+"x"+no2;
+	  var ques=no1+"+"+no2;
 	  mul=no1+no2;
 	 
 	  var randIndex = Math.round(Math.random()*3);
